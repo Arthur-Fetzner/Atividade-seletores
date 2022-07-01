@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://mundoconectado.com.br/uploads/chamadas/windows-11-wallpaper-chamada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+}
+
+main{
+    width: 85%;
+}
+
+main article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main article h2{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+main article img{
+    width: 100%;
+}
+
+main article p{
+    font-size: 1.1em;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+footer article{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+footer article h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+footer article img{
+    width: 100%;
+}
+
+footer article a{
+    text-decoration: none;
+    font: 1.2em;
+    aspect-ratio: 3/1;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: crimson;
+}
