@@ -59,6 +59,15 @@ main article img{
 
 main article p{
     font-size: 1.1em;
+    color: blue;
+}
+
+main article p:first-of-type{
+    color: red;
+}
+
+main article p:last-child{
+    color: yellow;
 }
 
 footer{
@@ -79,6 +88,15 @@ footer article{
 footer article h3{
     font-size: 1.5em;
     text-transform: uppercase;
+    color: blue;
+}
+
+footer article:first-child h3{
+    color: red;
+}
+
+footer article:last-child h3{
+    color: yellow;
 }
 
 footer article img{
@@ -96,5 +114,13 @@ footer article a{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: crimson;
+    background-color: blue;
+}
+
+footer article:first-child a{
+    background-color: red;
+}
+
+footer article:last-child a{
+    background-color: yellow;
 }
