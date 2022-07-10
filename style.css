@@ -103,6 +103,18 @@ footer article img{
     width: 100%;
 }
 
+footer article p{
+    color: blue;
+}
+
+footer article:first-child p{
+    color: red;
+}
+
+footer article:last-child p{
+    color: yellow;
+}
+
 footer article a{
     text-decoration: none;
     font: 1.2em;
